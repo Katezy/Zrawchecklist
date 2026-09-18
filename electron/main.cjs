@@ -104,7 +104,7 @@ function showAbout() {
 
     title: "About ZRAW Checklist",
 
-    message: "ZRAW Checklist",
+    message: "ZRAW Checklist By Sirawit Saetang",
 
     detail:
       "Version " +

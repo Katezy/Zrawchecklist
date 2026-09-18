@@ -637,15 +637,18 @@ function App() {
 
           <div className="mb-8">
 
-            <img
-              src="/zraw-logo.png"
-              alt="ZRAW"
-              className="h-8 w-auto object-contain"
-            />
+            
 
-            <div className="mt-2 text-[10px] tracking-[0.3em] text-neutral-700">
-              CHECKLIST
+            <div className="mt-1 text-[25px] tracking-[0.3em] text-white-700">
+              ZRAW
             </div>
+            <div className=" text-[10px] tracking-[0.3em] text-neutral-700">
+              CHECKLIST 
+            </div>
+           <div className=" text-[10px] tracking-[0.3em] text-neutral-700">
+              BY SIRAWIT 
+            </div>
+          
 
           </div>
 
@@ -1103,7 +1106,7 @@ function App() {
                 }
 
               }}
-              placeholder="เช่น KOREADONG TOPS 02"
+              placeholder="เช่น VDO 02"
               className="mb-4 w-full rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm outline-none placeholder:text-neutral-600 focus:border-neutral-500"
             />
 
