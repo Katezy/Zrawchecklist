@@ -1,7 +1,7 @@
 {
   "name": "zrawchecklist",
   "private": true,
-  "version": "1.0.5",
+  "version": "1.0.8",
   "main": "electron/main.cjs",
   "type": "module",
   "scripts": {
@@ -41,7 +41,7 @@
   },
   "build": {
     "appId": "com.zrawhouse.zrawchecklist",
-    "productName": "ZRAW Chโecklist",
+    "productName": "ZRAW Checklist",
     "directories": {
       "output": "release"
     },
@@ -50,11 +50,11 @@
       "electron/**/*",
       "package.json"
     ],
-   "win": {
-  "target": "nsis",
-  "icon": "build/icon.ico",
-  "artifactName": "ZRAW-Checklist-Setup-${version}.${ext}"
-},
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "artifactName": "ZRAW-Checklist-Setup-${version}.${ext}"
+    },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
